@@ -23,7 +23,7 @@
 **First Step :** Simply click on the vc_redist.x64.exe file
 
 **Second Step :** Simply click on the Nekoxtract.exe file<br><br>
-Then go to the site laranime to find the anime you want like this example<br> [https://laranime.tv/animes/inspectre-vostfr/saison-1/episode-01-un-oeil-une-jambe] then see the result for yourself.
+Then go to the site neko-sama.fr to find the anime you want like this example<br> [https://www.neko-sama.fr/anime/info/11-naruto_vostfr] then see the result for yourself.
 
 ## 🚀 Usage - Python Method
 
