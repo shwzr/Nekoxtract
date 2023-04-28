@@ -87,7 +87,7 @@ def display_links(links):
 
 # Créez la fenêtre principale
 window = tk.Tk()
-window.title("Neko-sama Link Extractor")
+window.title("Nekoxtract")
 window.iconbitmap(default=icon_path)
 window.resizable(0, 0)
 window.configure(background="#F5F5F5")
