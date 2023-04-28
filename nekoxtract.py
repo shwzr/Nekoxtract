@@ -10,7 +10,13 @@ icon_path = "neko-sama.ico"
 def on_submit():
     global url, is_vostfr, is_vf
     url = url_entry.get()
-    if not url.startswith("https://www.neko-sama.fr/"):
+    if url.startswith("https://neko-sama.fr/"):
+        url = url.replace("https://neko-sama.fr/", "https://www.neko-sama.fr/")
+    elif url.startswith("www.neko-sama.fr/"):
+        url = "https://" + url
+    elif url.startswith("neko-sama.fr/"):
+        url = "https://www." + url
+    elif not url.startswith("https://www.neko-sama.fr/"):
         messagebox.showerror("Erreur", "L'URL doit commencer par 'https://www.neko-sama.fr/'")
         return
 
@@ -23,6 +29,8 @@ def on_submit():
         url = url.replace("/anime/info/", "/anime/episode/")
         url = re.sub(r"_vostfr|_vf", "", url)
         url += "-01_vostfr" if is_vostfr else "-01_vf"
+
+    
 
     episode_num_match = re.search(r"-(\d+)_", url)
     if not episode_num_match or not episode_num_match.group(1).isdigit():
