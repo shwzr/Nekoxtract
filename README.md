@@ -20,7 +20,7 @@
 
 ## 🚀 Usage - Exe Method
 
-**First Step :** Simply click on the vc_redist.x64.exe file
+**First Step :** Simply click on the Nekoxtract-setup.exe and vc_redist.x64.exe file
 
 **Second Step :** Simply click on the Nekoxtract.exe file<br><br>
 Then go to the site neko-sama.fr to find the anime you want like this example<br> [https://www.neko-sama.fr/anime/info/11-naruto_vostfr] then see the result for yourself.
