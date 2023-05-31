@@ -133,6 +133,9 @@ url_entry.grid(row=0, column=1, padx=5, pady=5)
 submit_button = tk.Button(window, text="Extraire les liens", font=("Helvetica", 14), bg="#333333", fg="#FFFFFF", command=on_submit)
 submit_button.grid(row=1, column=0, columnspan=2, padx=5, pady=5)
 
+clear_button = tk.Button(window, text="Clear", font=("Helvetica", 14), bg="#333333", fg="#FFFFFF", command=clear_entry)
+clear_button.grid(row=1, column=1, padx=(50,5), pady=5)
+
 url_text = tk.Text(window, width=50, height=20, font=("Helvetica", 14))
 url_text.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
 
